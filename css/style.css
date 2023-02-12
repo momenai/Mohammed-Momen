@@ -8,8 +8,6 @@ body {
 .dark-mode {
   background-color: #333;
   color: #fff;
-
-
 }
 
 .header {
@@ -23,7 +21,6 @@ header {
 
 .header h1 {
   font-size: 32px;
-  color: #333;
 }
 
 .header p {
@@ -48,28 +45,32 @@ header {
   /* } */
 }
 
-  .main .section p {
-    font-size: 16px;
-    /* color: rgb(58, 58, 58); */
-    line-height: 1.5;
-  }
+.main .section p {
+  font-size: 16px;
+  /* color: rgb(58, 58, 58); */
+  line-height: 1.5;
+}
 
-  .main .section ul li {
-    font-size: 16px;
-    /* color: rgb(58, 58, 58); */
-    line-height: 1.8;
+.main .section ul li {
+  font-size: 16px;
+  /* color: rgb(58, 58, 58); */
+  line-height: 1.8;
 
-  }
+}
 
 
 
-  .main .section ul li:before {
-    /* content: "•"; */
-    /* color: #3333; */
-    margin-right: 10px;
-  }
+.main .section ul li:before {
+  /* content: "•"; */
+  /* color: #3333; */
+  margin-right: 10px;
+}
 
-  a {
-    color: #0277bd;
-    /* Deep blue */
-  }
+a {
+  color: #0277bd;
+  /* Deep blue */
+}
+
+/* p{
+  text-align: justify;
+} */
