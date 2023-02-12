@@ -1,11 +1,24 @@
 body {
-  font-family: sans-serif;
-  background-color: #fafafa;
+  font-family: verdana;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+
+
 }
 
 .header {
   text-align: center;
   padding: 50px 0;
+}
+
+header {
+  text-align: right;
 }
 
 .header h1 {
@@ -15,7 +28,7 @@ body {
 
 .header p {
   font-size: 16px;
-  color: rgb(35, 34, 34);
+  /* color: rgb(35, 34, 34); */
 }
 
 .main {
@@ -30,46 +43,33 @@ body {
 
 .main .section h2 {
   font-size: 24px;
-  color: #333;
+  /* color: #333; */
   /* margin-bottom: 5px; */
+  /* } */
 }
 
-.main .section p {
-  font-size: 16px;
-  color: rgb(58, 58, 58);
-  line-height: 1.5;
-}
-
-.main .section ul li {
-  font-size: 16px;
-  color: rgb(58, 58, 58);
-  line-height: 1.8;
-
-}
-
-
-/* .main .section ul {
-  line-height: 1.5;
-
-} */
-
-.main .section ul li:before {
-  /* content: "•"; */
-  color: #3333;
-  margin-right: 10px;
-}
-
-/* p {
-  line-height: 18px;
-} */
-
-/* @media (max-width: 600px) {
-  body {
-    font-size: 14px;
+  .main .section p {
+    font-size: 16px;
+    /* color: rgb(58, 58, 58); */
+    line-height: 1.5;
   }
 
-  .main-content {
-    width: 90%;
-    margin: 0 auto;
+  .main .section ul li {
+    font-size: 16px;
+    /* color: rgb(58, 58, 58); */
+    line-height: 1.8;
+
   }
-} */
+
+
+
+  .main .section ul li:before {
+    /* content: "•"; */
+    /* color: #3333; */
+    margin-right: 10px;
+  }
+
+  a {
+    color: #0277bd;
+    /* Deep blue */
+  }
