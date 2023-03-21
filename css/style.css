@@ -1,12 +1,13 @@
 body {
   font-family: verdana;
-  background-color: #fff;
-  color: #333;
+  background-color: #333;
+  color: #fff;
+
 }
 
 /* Dark mode styles */
 .dark-mode {
-  background-color:#fff ;
+  background-color: #fff;
   color: #333;
 }
 
