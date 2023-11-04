@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
-  
-  <title>Mohammed Momen's Home Page</title>
+
+  <title>Mohammed Momen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
   <link rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
 
   <style type="text/css" media="screen">
     body {
@@ -19,7 +20,10 @@
       background-color: #666;
       color: #000;
     }
-    .bigger { font-size:150%; }
+
+    .bigger {
+      font-size: 150%;
+    }
 
     #contents {
       margin-top: 10px;
@@ -48,25 +52,113 @@
 
 
     .image-wrapper {
-        float: right;
-        width: 100px;
-        height: auto; /* Allow the height to adjust based on content */
-        text-align: right; /* Align content to the right */
+      float: right;
+      width: 100px;
+      height: auto;
+      /* Allow the height to adjust based on content */
+      text-align: right;
+      /* Align content to the right */
     }
 
     .image-wrapper img {
-        width: 200%;
-        height: 200px;
-        object-fit: contain;
-        display: block; /* Make the image a block element so the text goes below */
+      width: 200%;
+      height: 200px;
+      object-fit: contain;
+      display: block;
+      /* Make the image a block element so the text goes below */
     }
 
     .below-text {
-        color: black; /* Set your preferred text color here */
-        display: block; /* Ensure the text is displayed below the image */
-        text-align: right; /* Align text to the right */
+      color: black;
+      /* Set your preferred text color here */
+      display: block;
+      /* Ensure the text is displayed below the image */
+      text-align: right;
+      /* Align text to the right */
     }
-</style>
+
+    .centered-inline {
+      text-align: center;
+    }
+
+    h2 {
+      display: inline;
+      /* or you can use inline-block */
+      margin: 0;
+      /* Adjusts spacing as needed */
+      padding: 0;
+      /* Adjusts padding as needed */
+    }
+
+    .social-icons-center {
+      text-align: center;
+      /* Center the icons container */
+    }
+
+    .social-icons-center a {
+      margin: 0 10px;
+      /* Space between icons */
+      text-decoration: none;
+      /* Removes the underline from the links */
+      display: inline-block;
+      /* Display links inline with block features */
+    }
+
+    /* GitHub icon color */
+    .social-icons-center a[href*="github.com"] .fab {
+      color: #333;
+      /* Replace with the GitHub icon color from your image */
+    }
+
+    /* LinkedIn icon color */
+    .social-icons-center a[href*="linkedin.com"] .fab {
+      color: #0077B5;
+      /* Replace with the LinkedIn icon color from your image */
+    }
+
+    /* Medium icon color */
+    .social-icons-center a[href*="medium.com"] .fab {
+      /* color: #00AB6C; */
+      color: #333;
+      /* Replace with the Medium icon color from your image */
+    }
+
+    /* Twitter icon color */
+    .social-icons-center a[href*="twitter.com"] .fab {
+      color: #1DA1F2;
+      /* Replace with the Twitter icon color from your image */
+    }
+
+    .social-icons-center a:hover {
+      color: #555;
+      /* Icon hover color */
+    }
+
+    .social-icons-center i {
+      font-size: 24px;
+      /* Icon size, adjust as necessary */
+    }
+
+    .image-container {
+      text-align: center;
+      /* Centers the content horizontally */
+    }
+
+    .image-container img {
+      display: block;
+      /* Makes the image a block-level element */
+      margin: 0 auto;
+      /* Centers the image horizontally */
+      width: 150px;
+      /* Adjust width as needed */
+      height: 150px;
+      /* Adjust height as needed to maintain aspect ratio if needed */
+      border-radius: 50%;
+      /* Makes the image round */
+      object-fit: cover;
+      /* Ensures the image covers the area without stretching */
+    }
+  </style>
 </head>
 
 <body>
@@ -75,136 +167,175 @@
     <label for="mode-toggle">Mode</label>
 </header> -->
   <div id="contents">
-    <h2> Mohammed Momen </h2>
+    <div class="centered-inline">
+      <h2>Mohammed Momen</h2>
+
+    </div>
+    <br>
+    <div class="image-container">
+      <img src="images/me.jpg" alt="Descriptive text for the image">
+    </div>
+    <p></p>
+
+
+
+    <!-- <h2> Mohammed Momen </h2> -->
     <div style="float: right; width: 200px; text-align: center;">
       <!-- <img src="images/me.webp" alt="Description of image" style="float:right; object-fit:contain; width:200px; height:200px;"> -->
       <!-- <p>Generated by AI</p> -->
     </div>
-    <h3> Contact </h3>
-    <ul>
-      <li> <a href="https://github.com/momenai">@momenai</a> on Github </li>
-      <li> <a href="https://www.linkedin.com/in/mohammed-ali-3462b1100/">@M.momen</a> on Linkedin </li>
-      <li> <a href="https://momen-ai.medium.com/">@momen-ai</a> on Medium </li>
-      <li> <a href="https://twitter.com/momen_ai">@momen_ai</a> on Twitter </li>
+    <br>
+
+    <div id="about-me">
+      <div class="social-icons-center">
+        <a href="https://github.com/momenai" title="@momenai on Github">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mohammed-ali-3462b1100/" title="@M.momen on Linkedin">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://momen-ai.medium.com/" title="@momen-ai on Medium">
+          <i class="fab fa-medium"></i>
+        </a>
+        <a href="https://twitter.com/momen_ai" title="@momen_ai on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+
+      <!-- <h3> Contact </h3>
+      <ul>
+        <li> <a href="https://github.com/momenai">@momenai</a> on Github </li>
+        <li> <a href="https://www.linkedin.com/in/mohammed-ali-3462b1100/">@M.momen</a> on Linkedin </li>
+        <li> <a href="https://momen-ai.medium.com/">@momen-ai</a> on Medium </li>
+        <li> <a href="https://twitter.com/momen_ai">@momen_ai</a> on Twitter </li>
 
 
 
-    </ul>
+      </ul> -->
+      <!-- <h3> About Me </h3>  coming soon -->
 
-    <h3> Interests </h3>
+      <h3> Interests </h3>
 
-    <!-- <p> I love to build Software systems powered by AI. I sometimes also <a
+      <!-- <p> I love to build Software systems powered by AI. I sometimes also <a
         href="https://momenai.github.io/Mohammed-Momen/blogs/blogs.html">blog</a> <a href="arabic/index.html" style="font-family: Traditional Arabic;">بالعربية</a>. </p> -->
-        <p> Love to build Software systems powered by AI. I sometimes also blog in <a
-          href="blogs/en.html">English </a>, <a
-          href="">Turkish(soon), </a>   <a href="blogs/ar.html" style="font-family: Traditional Arabic;">  <span class='bigger'>باللغة العربية</span></a>.</p>
-  
-    <h3>Projects</h3>
+      <p> Love to build Software systems powered by AI. I sometimes also blog in <a href="blogs/en.html">English </a>,
+        <a href="">Turkish(soon), </a> <a href="blogs/ar.html" style="font-family: Traditional Arabic;"> <span
+            class='bigger'>باللغة العربية</span></a>.
+      </p>
 
-    <h4>Machine Learning and AI</h4>
-    <ul>
-      <li><a href="https://github.com/momenai/KNN-classification" target="_blank">KNN for Classification</a>: Developed
-        from scratch to classify various types of glass, incorporating both standard and weighted KNN. </li>
-      <li><a href="https://github.com/momenai/KNN_Regression" target="_blank">KNN for Regression</a>: Implemented from
-        scratch to estimate the strength of different concrete materials, with an extension to weighted KNN for enhanced
-        precision. </li>
-      <li><a href="https://github.com/momenai/predicting-furnitures-in-living-room" target="_blank">Image Classification
-          using CNN - Python</a>: Classifier predicting the top 10 pieces of furniture in a living room, with 10
-        different classes. </li>
-      <li><a href="https://github.com/momenai/Fake-news-classifier" target="_blank">Fake News Classification using Naive
-          Bayes from Scratch in Python</a>. </li>
-      <li><a href="https://github.com/momenai/AI-Response-Comparator-OpenAI-s-ChatGPT-vs-Google-s-Bard"
-          target="_blank">AI Comparison: OpenAI's ChatGPT vs Google's Bard</a>: Tool engineered using OpenAI's LLM to
-        detect emotions: anger, happiness, sadness, satisfaction, and dissatisfaction.</li>
-    </ul>
+      <h3>Projects</h3>
 
-    <h4>Natural Language Processing (NLP)</h4>
-    <ul>
-      <li><a href="https://github.com/DesignProjectGroup/recipeApp" target="_blank">Smart Recipe System</a>: Utilizes
-        Python, Django, NLP, MySQL, and MLP to suggest recipes to users based on their ingredients.</li>
-    </ul>
+      <h4>Machine Learning and AI</h4>
+      <ul>
+        <li><a href="https://github.com/momenai/KNN-classification" target="_blank">KNN for Classification</a>:
+          Developed
+          from scratch to classify various types of glass, incorporating both standard and weighted KNN. </li>
+        <li><a href="https://github.com/momenai/KNN_Regression" target="_blank">KNN for Regression</a>: Implemented from
+          scratch to estimate the strength of different concrete materials, with an extension to weighted KNN for
+          enhanced
+          precision. </li>
+        <li><a href="https://github.com/momenai/predicting-furnitures-in-living-room" target="_blank">Image
+            Classification
+            using CNN - Python</a>: Classifier predicting the top 10 pieces of furniture in a living room, with 10
+          different classes. </li>
+        <li><a href="https://github.com/momenai/Fake-news-classifier" target="_blank">Fake News Classification using
+            Naive
+            Bayes from Scratch in Python</a>. </li>
+        <li><a href="https://github.com/momenai/AI-Response-Comparator-OpenAI-s-ChatGPT-vs-Google-s-Bard"
+            target="_blank">AI Comparison: OpenAI's ChatGPT vs Google's Bard</a>: Tool engineered using OpenAI's LLM to
+          detect emotions: anger, happiness, sadness, satisfaction, and dissatisfaction.</li>
+      </ul>
 
-    <h4>Software Engineering</h4>
-    <ul>
-      <li><a href="#" target="_blank">Smart Recipe System using (Python, Django, MySQL, MLP)</a>: Suggests recipes to
-        users based on their ingredients. Completed as a design project with three classmates.</li>
-      <li><a href="#" target="_blank">Our Home “Evimiz App” (Dart, Flutter, Firebase, Design Patterns)</a>: App to share
-        expenses. Utilizes MVC Architecture and Singleton Pattern. <a href="https://github.com/momenai/out_home"
-          target="_blank">[Code]</a> <a
-          href="https://docs.google.com/presentation/d/1lOgBQvz-gYlwkS7QWzVEMplh01SXmGEdpT41_7OLALc/edit?usp=sharing"
-          target="_blank">[Slide]</a></li>
-      <li><a href="#" target="_blank">Chrome Extension for Translating Coursera's Courses to Arabic and Turkish</a></li>
-    </ul>
+      <h4>Natural Language Processing (NLP)</h4>
+      <ul>
+        <li><a href="https://github.com/DesignProjectGroup/recipeApp" target="_blank">Smart Recipe System</a>: Utilizes
+          Python, Django, NLP, MySQL, and MLP to suggest recipes to users based on their ingredients.</li>
+      </ul>
 
-    <h4>Data Science Projects</h4>
-    <ul>
-      <li><a href="https://github.com/momenai/news-scrapper" target="_blank">Web Scraping, Data Analytics &
-          Automation</a>: Dynamic scraping from eight Turkish newspapers, data storage in MongoDB, followed by cleaning,
-        analysis, and visualization. Automated to run every 10 minutes.</li>
-      <li><a href="https://github.com/momenai/extract_transform_load" target="_blank">ETL (End-to-End)</a>: Extracting
-        data from databases, transforming via aggregation, cleaning, and reformatting, and loading into a pickle file.
-        Logged operations include timestamps.</li>
-      <li><a href="https://github.com/momenai/-data_analysis_with_pandas_matplotlib" target="_blank">Turkish
-          Universities Dataset Analysis</a>: Manipulation and analysis of data on Turkish universities using pandas.
-      </li>
-      <li><a href="https://github.com/momenai/Exploring-and-analyzing-Titanic-Dataset" target="_blank">Titanic Dataset
-          Exploration</a>: Analysis and exploration of the Titanic dataset.</li>
-    </ul>
+      <h4>Software Engineering</h4>
+      <ul>
+        <li><a href="#" target="_blank">Smart Recipe System using (Python, Django, MySQL, MLP)</a>: Suggests recipes to
+          users based on their ingredients. Completed as a design project with three classmates.</li>
+        <li><a href="#" target="_blank">Our Home “Evimiz App” (Dart, Flutter, Firebase, Design Patterns)</a>: App to
+          share
+          expenses. Utilizes MVC Architecture and Singleton Pattern. <a href="https://github.com/momenai/out_home"
+            target="_blank">[Code]</a> <a
+            href="https://docs.google.com/presentation/d/1lOgBQvz-gYlwkS7QWzVEMplh01SXmGEdpT41_7OLALc/edit?usp=sharing"
+            target="_blank">[Slide]</a></li>
+        <li><a href="#" target="_blank">Chrome Extension for Translating Coursera's Courses to Arabic and Turkish</a>
+        </li>
+      </ul>
 
-
-
-    <h3> Technical skills </h3>
-    <ul>
-      <li>Programming Languages: Python, SQL, Java, Shell Script, Dart, C</li>
-      <li>Software Engineering: OOP, Design Patterns, Git, Github, UML</li>
-      <li>Machine Learning: Keras, Scikit-Learn, Tensorflow, Pytorch</li>
-      <li>Data Science: Numpy, Pandas, Matplotlib, Seaborn, BeautifulSoup, Excel, Spreadsheet</li>
-      <li>Database: MySQL, PostgreSQL, MongoDB</li>
-      <li>Data Engineering: Web Scraping, ETL, ELT, Data Modeling, Data Processing, Data Visualization</li>
-      <li>Azure: Synapse, Data Factory</li>
-      <li>AWS: SageMaker</li>
-      <li>Spoken Languages: Arabic: Native, English: Professional, Turkish: Upper-Intermediate (B2)</li>
-    </ul>
-
-    <h3>Certifications</h3>
-    <ul>
-      <li><a href="https://www.coursera.org/account/accomplishments/certificate/V4GZHG6U5M87" target="_blank">Machine
-          Learning - Stanford University - by Andrew Ng</a></li>
-      <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/YS4A2RZTZ5HV"
-          target="_blank">Google Data Analytics Specialization</a></li>
-      <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/PA8JMJL5XLNB"
-          target="_blank">Executive Data Science - 5 courses</a></li>
-      <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/BWS9RJC2CADT"
-          target="_blank">Data Engineering, Big Data, and Machine Learning on GCP</a></li>
-      <li>IBM Data Engineering Professional Certificate - 5 Courses</li>
-
-    </ul>
+      <h4>Data Science Projects</h4>
+      <ul>
+        <li><a href="https://github.com/momenai/news-scrapper" target="_blank">Web Scraping, Data Analytics &
+            Automation</a>: Dynamic scraping from eight Turkish newspapers, data storage in MongoDB, followed by
+          cleaning,
+          analysis, and visualization. Automated to run every 10 minutes.</li>
+        <li><a href="https://github.com/momenai/extract_transform_load" target="_blank">ETL (End-to-End)</a>: Extracting
+          data from databases, transforming via aggregation, cleaning, and reformatting, and loading into a pickle file.
+          Logged operations include timestamps.</li>
+        <li><a href="https://github.com/momenai/-data_analysis_with_pandas_matplotlib" target="_blank">Turkish
+            Universities Dataset Analysis</a>: Manipulation and analysis of data on Turkish universities using pandas.
+        </li>
+        <li><a href="https://github.com/momenai/Exploring-and-analyzing-Titanic-Dataset" target="_blank">Titanic Dataset
+            Exploration</a>: Analysis and exploration of the Titanic dataset.</li>
+      </ul>
 
 
-    <h3> Writings and talks </h3>
 
-    <ul style="font-family: Arial, sans-serif;">
-      <li style="margin-bottom: 7px;">Applications of AI... GPT-4, ChatGPT, and Stable Diffusion - In Arabic <a
-          href="https://docs.google.com/presentation/d/1g4qFhEwJ_Tr7_dsyHFfGm6ZHLW25957qTHITn4VxDiA/edit#slide=id.g217ed6bc553_0_14"
-          target="_blank" style="text-decoration: none; color: #1a0dab; font-weight: bold;">Slides</a></li>
-      <li style="margin-bottom: 7px;">Intro to Artificial Intelligence - In Arabic <a
-          href="https://youtu.be/8DKcsT5QeM4" target="_blank"
-          style="text-decoration: none; color: #1a0dab; font-weight: bold;">Youtube</a> - <a
-          href="https://docs.google.com/presentation/d/1oGK_Bg0JkMzX_7mSvVQvqslrgP7SOoyAf8Xz2oSxQ-4/edit?usp=sharing"
-          target="_blank" style="text-decoration: none; color: #1a0dab; font-weight: bold;">Slides</a></li>
-      <li style="margin-bottom: 7px;">Overview about Science-fiction - In Arabic <a
-          href="https://www.instagram.com/p/CZsGOMjIb24/?utm_source=ig_web_button_share_sheet" target="_blank"
-          style="text-decoration: none; color: #1a0dab; font-weight: bold;">Post</a> - <a
-          href="https://docs.google.com/presentation/d/1q3dM6-eHvI-f0btTPS3kpJOA-LBY3jvbESQH_uqi9Gk/edit?usp=sharing"
-          target="_blank" style="text-decoration: none; color: #1a0dab; font-weight: bold;">Slides</a></li>
-      <li style="margin-bottom: 7px;">AI and Society (Yapay Zeka ve Toplum) - In Turkish <a
-          href="https://docs.google.com/presentation/d/1UTe9lcmYE8yQLq2zLAWvmFHTv0kT7UCc/edit?usp=sharing&ouid=104795986356102020918&rtpof=true&sd=true"
-          target="_blank" style="text-decoration: none; color: #1a0dab; font-weight: bold;">Slides</a></li>
-      <li style="margin-bottom: 10px;">Best Writer in Quora-Arabic, 2022 - <a href="https://qr.ae/pvOs4T"
-          target="_blank" style="text-decoration: none; color: #1a0dab; font-weight: bold;">Quora</a></li>
+      <h3> Technical skills </h3>
+      <ul>
+        <li>Programming Languages: Python, SQL, Java, Shell Script, Dart, C</li>
+        <li>Software Engineering: OOP, Design Patterns, Git, Github, UML</li>
+        <li>Machine Learning: Keras, Scikit-Learn, Tensorflow, Pytorch</li>
+        <li>Data Science: Numpy, Pandas, Matplotlib, Seaborn, BeautifulSoup, Excel, Spreadsheet</li>
+        <li>Database: MySQL, PostgreSQL, MongoDB</li>
+        <li>Data Engineering: Web Scraping, ETL, ELT, Data Modeling, Data Processing, Data Visualization</li>
+        <li>Azure: Synapse, Data Factory</li>
+        <li>AWS: SageMaker</li>
+        <li>Spoken Languages: Arabic: Native, English: Professional, Turkish: Upper-Intermediate (B2)</li>
+      </ul>
 
-    </ul>
-  </div>
+      <h3>Certifications</h3>
+      <ul>
+        <li><a href="https://www.coursera.org/account/accomplishments/certificate/V4GZHG6U5M87" target="_blank">Machine
+            Learning - Stanford University - by Andrew Ng</a></li>
+        <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/YS4A2RZTZ5HV"
+            target="_blank">Google Data Analytics Specialization</a></li>
+        <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/PA8JMJL5XLNB"
+            target="_blank">Executive Data Science - 5 courses</a></li>
+        <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/BWS9RJC2CADT"
+            target="_blank">Data Engineering, Big Data, and Machine Learning on GCP</a></li>
+        <li>IBM Data Engineering Professional Certificate - 5 Courses</li>
+
+      </ul>
+
+
+      <h3> Writings and talks </h3>
+
+      <ul style="font-family: Arial, sans-serif;">
+        <li style="margin-bottom: 7px;">Applications of AI... GPT-4, ChatGPT, and Stable Diffusion - In Arabic <a
+            href="https://docs.google.com/presentation/d/1g4qFhEwJ_Tr7_dsyHFfGm6ZHLW25957qTHITn4VxDiA/edit#slide=id.g217ed6bc553_0_14"
+            target="_blank" style="text-decoration: none; color: #1a0dab; font-weight: bold;">Slides</a></li>
+        <li style="margin-bottom: 7px;">Intro to Artificial Intelligence - In Arabic <a
+            href="https://youtu.be/8DKcsT5QeM4" target="_blank"
+            style="text-decoration: none; color: #1a0dab; font-weight: bold;">Youtube</a> - <a
+            href="https://docs.google.com/presentation/d/1oGK_Bg0JkMzX_7mSvVQvqslrgP7SOoyAf8Xz2oSxQ-4/edit?usp=sharing"
+            target="_blank" style="text-decoration: none; color: #1a0dab; font-weight: bold;">Slides</a></li>
+        <li style="margin-bottom: 7px;">Overview about Science-fiction - In Arabic <a
+            href="https://www.instagram.com/p/CZsGOMjIb24/?utm_source=ig_web_button_share_sheet" target="_blank"
+            style="text-decoration: none; color: #1a0dab; font-weight: bold;">Post</a> - <a
+            href="https://docs.google.com/presentation/d/1q3dM6-eHvI-f0btTPS3kpJOA-LBY3jvbESQH_uqi9Gk/edit?usp=sharing"
+            target="_blank" style="text-decoration: none; color: #1a0dab; font-weight: bold;">Slides</a></li>
+        <li style="margin-bottom: 7px;">AI and Society (Yapay Zeka ve Toplum) - In Turkish <a
+            href="https://docs.google.com/presentation/d/1UTe9lcmYE8yQLq2zLAWvmFHTv0kT7UCc/edit?usp=sharing&ouid=104795986356102020918&rtpof=true&sd=true"
+            target="_blank" style="text-decoration: none; color: #1a0dab; font-weight: bold;">Slides</a></li>
+        <li style="margin-bottom: 10px;">Best Writer in Quora-Arabic, 2022 - <a href="https://qr.ae/pvOs4T"
+            target="_blank" style="text-decoration: none; color: #1a0dab; font-weight: bold;">Quora</a></li>
+
+      </ul>
+    </div>
 </body>
 
 </html>

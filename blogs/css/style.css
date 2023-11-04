@@ -92,7 +92,9 @@ html {
 }
 
 body {
-    margin: 0
+    margin: -66px;
+    /* margin: 0 */
+
 }
 
 a {
