@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Blog Name</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 50px;
+    background: #f0f0f0;
+  }
+  .container {
+    width: 60%;
+    max-width: 1200px;
+    margin: 30px auto; /* Center the container and add some margin at the top and bottom */
+  }
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Allows rectangles to wrap onto the next line as needed */
+    margin-bottom: 20px;
+  }
+  .rectangle {
+    width: 39%; /* Each rectangle takes up a little less than half of the container width */
+    height: 211px; /* Adjust the height as you like */
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Add margin to the bottom of rectangles */
+  }
+  /* Responsive layout for screens less than 600px wide */
+  @media (max-width: 600px) {
+    .rectangle {
+      width: 100%; /* Rectangles take full width on small screens */
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Repeat this row for each set of rectangles -->
+  <div class="row">
+    <div class="rectangle">Generative AI</div>
+    <div class="rectangle">Machine Learning</div>
+  </div>
+  <div class="row">
+    <div class="rectangle">Math For Machine Learning</div>
+    <div class="rectangle">Natural Language Processing</div>
+  </div>
+  <div class="row">
+    <div class="rectangle">Recommendation Systems</div>
+    <div class="rectangle">Natural Language Processing</div>
+  </div>
+  <div class="row">
+    <div class="rectangle">Recommendation Systems</div>
+    <div class="rectangle">Natural Language Processing</div>
+  </div>
+  <!-- Add more rows as needed -->
+</div>
+
+</body>
+</html>

@@ -362,6 +362,10 @@ ul#user_links li {
     margin-left: 5px;
     margin-bottom: 10px
 }
+p,
+em {
+  text-align: justify;
+}
 
 ul#user_links li a {
     display: inline-block;
