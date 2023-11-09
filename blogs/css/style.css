@@ -367,8 +367,8 @@ ul#user_links li a {
     display: inline-block;
     border: 1px solid #e4e4e4;
     padding: 4px 18px 4px 18px;
-    border-radius: 30px;
-    line-height: 20px;
+    border-radius: 10px;
+    line-height: -1px;
     color: #8c8c8c;
     font-weight: 400;
     font-size: 14px;
@@ -509,7 +509,7 @@ header#user_top.small figure#user_logo.active a {
 }
 
 header#user_top.small ul#user_links li a {
-    line-height: 16px
+    line-height: 8px
 }
 
 footer#blog_foot {
@@ -581,8 +581,8 @@ ul#foot_links li a {
     display: inline-block;
     border: 0px solid #f0f0f0;
     padding: 4px 18px 4px 18px;
-    border-radius: 30px;
-    line-height: 14px;
+    border-radius: 10px;
+    line-height: 10px;
     color: #a4a4a4;
     font-weight: 400;
     font-size: 14px;
@@ -656,8 +656,8 @@ h6.separator_title.more_by {
 }
 
 h1.article_title {
-    font-size: 40px;
-    line-height: 35px;
+    font-size: 23px;
+    line-height: 31px;
     margin-bottom: 15px;
     margin-top: 0px
 }
@@ -1117,10 +1117,10 @@ section#container.user_post {
 section#container.user_post h1.article_title {
     font-family: 'freight-sans-pro', 'proxima-nova', 'Helvetica';
     font-weight: 700;
-    font-size: 43px;
+    font-size: 26px;
     line-height: 44px;
     margin-top: 0px;
-    color: #000;
+    color: #3a3a3a;
     margin-bottom: 25px
 }
 
@@ -1848,7 +1848,7 @@ h6 a {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold
 }
 
@@ -1887,8 +1887,8 @@ h6 {
 }
 
 p {
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 17px;
+    line-height: 1.4;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #4D4D4D;
@@ -1936,7 +1936,7 @@ a:active {
 
 a,
 a:visited {
-    color: #333;
+    color: #30F;
     text-decoration: none;
     outline: 0
 }
@@ -2122,7 +2122,7 @@ article.post ol {
 article.post ul li,
 article.post ol li {
     font-size: 17px;
-    line-height: 25px;
+    line-height: 10px;
     margin: 0;
     color: #4d4d4d;
     display: list-item;
