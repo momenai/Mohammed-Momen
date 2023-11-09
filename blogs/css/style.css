@@ -1940,7 +1940,7 @@ a:active {
 
 a,
 a:visited {
-    color: #30F;
+    color: #000;
     text-decoration: none;
     outline: 0
 }
