@@ -9,3 +9,8 @@
 momenai/momenai is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+f'(x) = \lim_{{h \to 0}} \frac{{f(x + h) - f(x)}}{h}
+
+ $\frac{df}{dx}\approx\frac{f\left(x + \Delta x\right) - f\left(x\right)}{\Delta x}$
+ 
