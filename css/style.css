@@ -3,6 +3,8 @@ body
 padding: 0;
 margin: 0;
 background-color: #666;
+font-family: "Times New Roman", Times, serif;
+
 color: #000;
 }
 
@@ -17,7 +19,9 @@ padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
 background-color: #FFF;
-color: #000;
+color: #141414;
+font-family: "Times New Roman", Times, serif;
+
 }
 
 #about-me {
@@ -39,7 +43,7 @@ color: #000;
 {
 color: #339;
 background-color: transparent;
-font-family: times, serif;
+font-family: "Times New Roman";
 font-size: 0.9em;
 padding-left: 40px;
 }
