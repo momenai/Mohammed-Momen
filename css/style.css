@@ -1,0 +1,49 @@
+body
+{
+padding: 0;
+margin: 0;
+background-color: #666;
+color: #000;
+}
+
+#contents
+{
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 15%;
+margin-right: 15%;
+padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+background-color: #FFF;
+color: #000;
+}
+
+#about-me {
+    text-align: center;
+  }
+
+  .social-icons-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icons-center a {
+    margin: 0 10px; /* Adjust the margin as needed */
+    text-decoration: none;
+  /*     color: #333; Change the color as needed */
+    font-size: 20px; /* Adjust the font size as needed */
+  }
+.code
+{
+color: #339;
+background-color: transparent;
+font-family: times, serif;
+font-size: 0.9em;
+padding-left: 40px;
+}
+
+ul li {
+margin-top: 4px;
+}
