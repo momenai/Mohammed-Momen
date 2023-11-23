@@ -32,7 +32,15 @@ body {
 
 .social-icons-center {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+.list {
+    display: flex;
+    justify-content: right;
+    margin-right: 8%;
+    display: flex;
+    /* justify-content: space-evenly; */
+
 }
 
 .social-icons-center a {
