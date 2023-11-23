@@ -1,7 +1,9 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(244, 244, 244);
+    /* background-color: rgb(244, 244, 244); */
+    background-color: #fffaff;
+
     text-align: justify;
 
     /* font-family: "Times New Roman", Times, serif; */
