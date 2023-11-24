@@ -22,7 +22,7 @@ body {
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #FFF;
+    background-color: #e2e2e2;
     color: #141414;
     /* font-family: "Times New Roman", Times, serif; */
 
@@ -80,4 +80,15 @@ li {
     margin: 5px; /* Add margin for spacing */
   }
 
-  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rectangle {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(93, 93, 93);
+    margin: 5px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+  }
