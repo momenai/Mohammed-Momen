@@ -20,7 +20,7 @@ body {
     margin-right: 15%;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-right: 30px;
     background-color: #e2e2e2;
     color: #141414;
@@ -34,7 +34,7 @@ body {
 
 .social-icons-center {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .list {
     display: flex;
@@ -91,4 +91,8 @@ li {
     border: 1px solid rgb(93, 93, 93);
     margin: 5px;
     border-radius: 10px; /* Add border-radius for rounded corners */
+  } 
+  
+  .my-link {
+    font-size: 1.3em; /* You can adjust the value to make the text bigger or smaller */
   }
