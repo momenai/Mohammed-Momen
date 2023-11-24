@@ -20,7 +20,7 @@ body {
     margin-right: 15%;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 30px;
     background-color: #e2e2e2;
     color: #141414;
@@ -34,7 +34,7 @@ body {
 
 .social-icons-center {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .list {
     display: flex;
