@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(244, 244, 244); */
+    background-color: #eee;
+
+    text-align: justify;
+
+    /* font-family: "Times New Roman", Times, serif; */
+
+    color: #000;
+}
+
+
+#contents {
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #e2e2e2;
+    color: #141414;
+    /* font-family: "Times New Roman", Times, serif; */
+
+}
+
+#about-me {
+    text-align: center;
+}
+
+.social-icons-center {
+    display: flex;
+    justify-content: space-around;
+}
+.list {
+    display: flex;
+    justify-content: right;
+    margin-right: 8%;
+    display: flex;
+    /* justify-content: space-evenly; */
+
+}
+
+.social-icons-center a {
+    margin: 0 10px;
+    /* Adjust the margin as needed */
+    text-decoration: none;
+    /*     color: #333; Change the color as needed */
+    font-size: 20px;
+    /* Adjust the font size as needed */
+}
+
+.code {
+    color: #339;
+    background-color: transparent;
+    font-family: "Times New Roman";
+    font-size: 10em;
+    padding-left: 40px;
+}
+
+ul li {
+    margin-top: 8px;
+}
+li {
+    list-style-type: square;
+    margin-right: 25px; /* Optional: Add spacing between list items */
+
+  }
+
+
+  .rounded-box {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Add border color */
+    margin: 5px; /* Add margin for spacing */
+  }
+
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .rectangle {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(93, 93, 93);
+    margin: 5px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+  } 
+  
+  .my-link {
+    font-size: 1.3em; /* You can adjust the value to make the text bigger or smaller */
+  }
