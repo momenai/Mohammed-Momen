@@ -617,7 +617,7 @@ ul#foot_links li a:hover {
 }
 
 body section#container article.notification {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
