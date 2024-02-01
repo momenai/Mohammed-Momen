@@ -84,7 +84,8 @@ li {
     display: flex;
     flex-wrap: wrap;
   }
-
+  h1 {text-align: center;}
+  
   .rectangle {
     display: inline-block;
     padding: 10px;
