@@ -57,7 +57,7 @@ body {
 .code {
     color: #339;
     background-color: transparent;
-    font-family: "Times New Roman";
+    /* font-family: "Times New Roman"; */
     font-size: 10em;
     padding-left: 40px;
 }
